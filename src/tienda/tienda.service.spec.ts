@@ -68,9 +68,6 @@ describe('TiendaService', () => {
  
     await expect(() => service.create(tienda)).rejects.toHaveProperty("message", "Telefono invalido")
   });
-
-  it('should be defined', () => {
-    expect(service).toBeDefined();
-  });
+  
 
 });
